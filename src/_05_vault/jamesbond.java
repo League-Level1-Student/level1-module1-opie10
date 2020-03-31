@@ -12,7 +12,7 @@ public class jamesbond {
 		for (int i = 0; i < 1000; i++) {
 			
 			if (vault.trycode(i)) {
-				System.out.println("Cracked the vault!!!!"+ "the code was"+ i);
+				System.out.println("Cracked the vault!!!!"+ " The code was "+ i);
 				
 				return;
 			}
